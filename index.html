@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>coni's extensions</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <div class="ribbon" role="banner" aria-label="Gallery header">
+      <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden style="filter: drop-shadow(0 2px 6px rgba(0,0,0,0.25));">
+        <circle cx="12" cy="12" r="10" fill="#fff2e6"/>
+        <path d="M6 12c1.2-3 6-5 6-5s4.8 2 6 5c-1.2 3-6 5-6 5S7.2 15 6 12z" fill="#ffb84d"/>
+      </svg>
+      <div>
+        <h1>extensions</h1>
+        <div class="subtitle">conis extension gallery • click a card for details</div>
+      </div>
+    </div>
+
+    <div class="controls" role="search">
+      <div class="search" aria-label="Search extensions">
+        <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden><path fill="#7b6b6b" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5z"/></svg>
+        <input id="q" placeholder="search extensions..." />
+      </div>
+      <div class="chip" id="filterAll">all</div>
+      <div class="chip">programming</div>
+    </div>
+  </div>
+
+  <main class="grid" id="grid" role="list">
+    <article class="card" role="listitem" tabindex="0" aria-label="pythonpm">
+      <div>
+        <div class="badge">HOT</div>
+        <h2 class="title">Python</h2>
+        <div class="meta">by coni • programming • v1.2</div>
+        <p class="desc">run python scripts in tandem with scratch scripts!</p>
+      </div>
+
+      <div class="row">
+        <button class="btn" data-link="https://raw.githubusercontent.com/cshadsy/pm-exts/refs/heads/main/pythonpm.js">copy link</button>
+      </div>
+
+      <div class="stitched" aria-hidden></div>
+    </article>
+  </main>
+
+  <footer>made with &#60;3 by coni</footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
